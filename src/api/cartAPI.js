@@ -7,7 +7,6 @@ const baseUrl = import.meta.env.VITE_API_BASE_URL;
 const API = axios.create({
   baseURL: `${baseUrl}/cart`,
 });
-
 // ✅ Add interceptor to attach token from localStorage
 API.interceptors.request.use((config) => {
   const token = localStorage.getItem("token"); // 👈 get from token
