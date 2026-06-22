@@ -823,13 +823,13 @@ export default function CancellationPolicy() {
 
         <h3 className="text-lg font-semibold text-[#393838]">1. Order Cancellation Before Shipping</h3>
         <p className="text-justify text-gray-700 leading-relaxed">
-          You can cancel your order within 24 hours of placing it, or at any time before it has been shipped. To cancel, please email us at info@lioniesfashion.com with your Order ID. In these cases, a full refund will be issued to your original payment method.
+          You can cancel your order within 24 hours of placing it, or at any time before it has been shipped. To cancel, please email us at lbmensw@gmail.com with your Order ID. In these cases, a full refund will be issued to your original payment method.
         </p>
 
         <h3 className="text-lg font-semibold text-[#393838]">2. Cancelling an Order After Shipping</h3>
         <p className="text-justify text-gray-700 leading-relaxed">
           If your order has already been shipped but not yet delivered, please contact us immediately at
-          <a href="mailto:info@lioniesfashion.com" className="text-blue-600"> info@lioniesfashion.com </a> 
+          <a href="mailto:lbmensw@gmail.com" className="text-blue-600"> lbmensw@gmail.com </a> 
           Once the package is returned to us, we will process a refund minus any applicable shipping charges.
         </p>
 

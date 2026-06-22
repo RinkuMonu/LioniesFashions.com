@@ -123,8 +123,8 @@ SITA RAM COLONY, TONK ROAD,Jaipur
 
 <ul>
    <li>
-              <Link to="mailto:info@lioniesfashion.com" className="hover:text-[#cba146] transition flex items-center gap-2 pt-4">
-                info@lioniesfashion.com
+              <Link to="mailto:lbmensw@gmail.com" className="hover:text-[#cba146] transition flex items-center gap-2 pt-4">
+                lbmensw@gmail.com
               </Link>
             </li>
              <li>

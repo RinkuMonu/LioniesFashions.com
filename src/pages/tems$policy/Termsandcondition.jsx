@@ -138,7 +138,7 @@ const termsSections = [
     {
       title: "Contact",
       content: [
-        "If you still have any query about our terms and conditions kindly drop us an email at  info@lioniesfashion.com, we will reply you within 1-2 working days."
+        "If you still have any query about our terms and conditions kindly drop us an email at  lbmensw@gmail.com, we will reply you within 1-2 working days."
       ]
     }
   ];

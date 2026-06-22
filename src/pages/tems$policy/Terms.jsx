@@ -93,7 +93,7 @@ const sectionContents = [
   ],
   [
     "If you have any questions regarding these Terms of Service, please contact us at ",
-    "Email: info@lioniesfashion.com",
+    "Email: lbmensw@gmail.com",
     "Address: 11,12 SITA RAM COLONY, TONK ROAD,Jaipur ,Rajasthan, 302029",
     "Phone: 9251582698",
   ],
