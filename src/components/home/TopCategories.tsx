@@ -14,14 +14,15 @@ export default function TopCategories() {
   const baseUrl = import.meta.env.VITE_API_BASE_URL
   const referenceWebsite = import.meta.env.VITE_REFERENCE_WEBSITE
   const baseUrliMAGE = import.meta.env.VITE_API_BASE_URL_IMAGE;
+const linkUrl = (text) => {
+  if (!text) return "#";
 
-  const linkUrl = (text) => {
-    return text
-      .toLowerCase()
-      .trim()
-      .replace(/\s+/g, "-")
-  }
-
+  return text
+    .toString()
+    .toLowerCase()
+    .trim()
+    .replace(/\s+/g, "-");
+};
   useEffect(() => {
     const fetchCategories = async () => {
       try {
