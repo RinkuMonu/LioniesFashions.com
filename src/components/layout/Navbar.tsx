@@ -125,6 +125,7 @@ const Navbar: React.FC<NavbarProps> = ({ onCartClick, cartItemCount }) => {
         const data = await res.json();
         console.log(data);
         setCategories(data?.website?.categories)
+          console.log("cattttttttttttttt",data?.website?.categories);
         // Group items by subcategory
         const grouped = {};
         if (Array.isArray(data?.website?.categories)) {
@@ -143,7 +144,7 @@ const Navbar: React.FC<NavbarProps> = ({ onCartClick, cartItemCount }) => {
 
     fetchCategories();
   }, [baseUrl, referenceWebsite]);
-
+   
   function slugify(text) {
     if (typeof text !== "string") return "";
     return text
@@ -1008,18 +1009,7 @@ const Navbar: React.FC<NavbarProps> = ({ onCartClick, cartItemCount }) => {
       >
         Shorts & Necker
       </Link>
-       <Link
-        to="/category/dhotis"
-        className="text-[13px] font-semibold transition-all duration-300 hover:text-[#cba146] text-[#1B2E4F]"
-      >
-        Dhotis
-      </Link>
-       <Link
-        to="/category/sherwanis"
-        className="text-[13px] font-semibold transition-all duration-300 hover:text-[#cba146] text-[#1B2E4F]"
-      >
-        Sherwani
-      </Link>
+     
         
         {/* More Categories Dropdown */}
 

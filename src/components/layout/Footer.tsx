@@ -32,15 +32,15 @@ export default function Footer() {
         { name: "Track Pants", link: "/category/track-pants-and-joggers" },
       ],
     },
-    {
-      title: "Ethnic Wear",
-      items: [
-        { name: "Kurtas", link: "/category/kurta-sets" },
-        { name: "Nehru Jackets", link: "/category/nehru-jackets" },
-        { name: "Sherwanis", link: "/category/sherwanis" },
-        { name: "Dhotis", link: "/category/dhotis" },
-      ],
-    },
+    // {
+    //   title: "Ethnic Wear",
+    //   items: [
+    //     { name: "Kurtas", link: "/category/kurta-sets" },
+    //     { name: "Nehru Jackets", link: "/category/nehru-jackets" },
+    //     { name: "Sherwanis", link: "/category/sherwanis" },
+    //     { name: "Dhotis", link: "/category/dhotis" },
+    //   ],
+    // },
     {
       title: "Casual Fits",
       items: [
